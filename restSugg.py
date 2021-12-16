@@ -17,7 +17,6 @@ from random import randint
 business_id = '6HW31CueDTgaqd6Q5MNXLg'
 unix_time = 1546047836
 
-# Define my API Key, My Endpoint, and My Header
 API_KEY = 'CChxA4UmzeOEqS6UNr5rUDGggs8alwg189striIRcS9H_mjt5MlzcxKAcpaaaHYlzqTRnqCK8dUc3ndWCMBYGExKAK-41YOqr4mUh_BAgP_5ZcTsr_oIYu12q_63YXYx'
 ENDPOINT = 'https://api.yelp.com/v3/businesses/search'.format(business_id)
 HEADERS = {'Authorization': 'bearer %s' % API_KEY}
